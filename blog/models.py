@@ -16,3 +16,8 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+class Alunos(models.Model):
+    nomeCompleto = models.TextField()
+    turma = models.TextField()
+    tipoDeHabilitacao = models.TextField()
